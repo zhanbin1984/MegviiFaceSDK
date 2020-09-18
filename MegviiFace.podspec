@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   								Foundation For iOS developer.
                    DESC
 
-  s.homepage     = "https://gitlab.haochang.tv/MegviiFace-iOS/MegviiFace"
+  s.homepage     = "https://github.com/zhanbin1984/MegviiFaceSDK"
   s.license      = { :type => "Copyright", :text => "LICENSE Copyright 2020 yuepaidui, Inc. All rights reserved." }
   s.author       = { "yuepaidui" => "zhanbin@juwang.cn" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://gitlab.haochang.tv/MegviiFace-iOS/MegviiFace", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhanbin1984/MegviiFaceSDK.git", :tag => "#{s.version}" }
 	
   s.source_files = "#{s.name}/**/*.{h,m}"
   s.public_header_files = "#{s.name}/**/*.{h}"
